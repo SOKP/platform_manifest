@@ -6,16 +6,6 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.0.2_r1" />
 
-  <remote  name="SOKP"
-           fetch="https://github.com/SOKP" />	   
-  
-  <remote  name="SOKP-Devices"
-           fetch="https://github.com/SOKP-Devices" />
-           
-  <remote  name="slim"
-           fetch="https://github.com/slimroms"
-           review="gerrit.slimroms.net" />
-
     <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
@@ -28,19 +18,19 @@
            sync-c="true"
            sync-j="4" />
     
-  <project path="build" name="build" remote="SOKP" revision="sokp-l5" >
+  <project path="build" name="SOKP/build" revision="sokp-l5" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
   <!-- SOKP  Repo Starts -->
-  <project path="platform_manifest" name="platform_manifest" remote="SOKP" revision="sokp-l5" />
-  <project path="vendor/sokp" name="vendor_sokp" remote="SOKP" revision="sokp-l5" />
-  <project path="frameworks/base" name="frameworks_base" remote="SOKP" revision="sokp-l5" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="SOKP" revision="sokp-l5" />
-  <project path="system/core" name="system_core" remote="SOKP" revision="sokp-l5" />
-  <project path="packages/apps/SonicPapers" name="android_packages_apps_SonicPapers" remote="SOKP" revision="sokp-l5" />
-  <project path="packages/apps/SOKPStats" name="android_packages_apps_SOKPStats" remote="SOKP" revision="sokp-kk" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="SOKP" revision="sokp-l5" />
+  <project path="platform_manifest" name="SOKP/platform_manifest" revision="sokp-l5" />
+  <project path="vendor/sokp" name="SOKP/vendor_sokp" revision="sokp-l5" />
+  <project path="frameworks/base" name="SOKP/frameworks_base" revision="sokp-l5" />
+  <project path="packages/apps/Settings" name="SOKP/packages_apps_Settings" revision="sokp-l5" />
+  <project path="system/core" name="SOKP/system_core" revision="sokp-l5" />
+  <project path="packages/apps/SonicPapers" name="SOKP/android_packages_apps_SonicPapers" revision="sokp-l5" />
+  <project path="packages/apps/SOKPStats" name="SOKP/android_packages_apps_SOKPStats" revision="sokp-kk" />
+  <project path="packages/apps/Browser" name="SOKP/packages_apps_Browser" revision="sokp-l5" />
   <!-- SOKP Repo Ends --> 
   
   <!-- CM/AOSP  Repo Starts -->
