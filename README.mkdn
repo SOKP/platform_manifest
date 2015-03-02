@@ -1,3 +1,4 @@
+![alt text](http://i.imgur.com/jnNWPGy.png "SONIC OPEN KANG PROJECT")
 SONIC OPEN KANG PROJECT
 ===================
 
@@ -50,7 +51,7 @@ if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is rec
 
 
 Building the System
----------------
+-------------------
 
 Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
 
@@ -67,11 +68,21 @@ Build the Code:
 
 Submitting Patches
 ------------------
-Updated Soon
+For time beeing you can send us pull request..Soon we are adding  gerrit review for SOKP.
 
 Git TrickMarks
 ------------------
 Creating a git branch with no ancestry git checkout --orphan git rm --cached $(git ls-files) git add NOTICE git commit -m "dummy commit" Then u push the goodies ;)
 
-If you have any issues/questions please contact us in email id : audiogod@live.com If you need any live help contact us in hangouts id : audiogod@live.com
 
+Porting SOKP For New Devices
+----------------------------
+SOKP is open source Developers are welcome to port it for new Devices. If you want to make your Unofficial Build to be official then cdntact us in bellow mentioned contact details with Device tree , kernel sourec along with vendors.
+If you want to publish your unofficial builds in SOKP download site please contact us in bellow mentioned contact details.
+
+Official Contact Details
+------------------------
+Hangouts:adi.nth@outlook.com 
+Official Forum : http://forum.sonic-developers.com 
+SOKP Rom Source Link: https://github.com/SOKP 
+Kernel Device Vendor Source : https://github.com/SOKP-Devices 
