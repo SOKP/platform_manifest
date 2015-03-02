@@ -77,10 +77,10 @@ Creating a git branch with no ancestry git checkout --orphan git rm --cached $(g
 
 Porting SOKP For New Devices
 ----------------------------
-SOKP is open source Developers are welcome to port it for new Devices. If you want to make your Unofficial Build to be official then cdntact us in bellow mentioned contact details with Device tree , kernel sourec along with vendors.
+SOKP is open source , So Developers are welcome to port SOKP for new Devices. If you want to make your Unofficial Build to be official then contact us in bellow mentioned contact details with Device tree , kernel sourec along with vendors.
 If you want to publish your unofficial builds in SOKP download site please contact us in bellow mentioned contact details.
 
-Official Contact Details
+Official Contact Details 
 ------------------------
 Hangouts:adi.nth@outlook.com 
 Official Forum : http://forum.sonic-developers.com 
