@@ -28,8 +28,8 @@
   <project path="frameworks/base" name="SOKP/frameworks_base" revision="sokp-l5" />
   <project path="packages/apps/Settings" name="SOKP/packages_apps_Settings" revision="sokp-l5" />
   <project path="system/core" name="SOKP/system_core" revision="sokp-l5" />
-  <project path="packages/apps/SonicPapers" name="SOKP/android_packages_apps_SonicPapers" revision="sokp-l5" />
-  <project path="packages/apps/SOKPStats" name="SOKP/android_packages_apps_SOKPStats" revision="sokp-kk" />
+  <project path="packages/apps/SonicPapers" name="SOKP/packages_apps_SonicPapers" revision="sokp-l5" />
+  <project path="packages/apps/SOKPStats" name="SOKP/packages_apps_SOKPStats" revision="sokp-l5" />
   <project path="packages/apps/Browser" name="SOKP/packages_apps_Browser" revision="sokp-l5" />
   <!-- SOKP Repo Ends --> 
   
