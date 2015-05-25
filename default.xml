@@ -2,7 +2,15 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="sokp"
+           fetch="git://github.com/SOKP"
+           review="https://review.sonic-developers.com/"/>
+  
+  <remote  name="github"
+           fetch="git://github.com/" />  
+
   <default revision="refs/tags/android-5.1.1_r3"
            remote="aosp"
            sync-j="4" />
