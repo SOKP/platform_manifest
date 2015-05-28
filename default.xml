@@ -38,10 +38,16 @@
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="sokp" revision="sokp-l5.1AG" />
   <project path="platform_manifest" name="platform_manifest" remote="sokp" revision="sokp-l5.1AG" />
   <project path="system/core" name="system_core" remote="sokp" revision="sokp-l5.1AG" />
   <project path="system/media" name="system_media" remote="sokp" revision="sokp-l5.1AG" />
   <project path="vendor/sokp" name="vendor_sokp" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote=remote="sokp" revision="sokp-l5.1" />
+  <project path="external/checkpolicy" name="android_external_checkpolicy" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="external/sqlite" name="external_sqlite" remote="sokp" revision="sokp-l5.1AG"" />
+  <project path="libcore" name="platform_libcore" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sokp" revision="sokp-l5.1AG" />
   <!-- SOKP Repo Ends -->
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -95,7 +101,6 @@
   <project path="external/busybox" name="SlimRoms/android_external_busybox" remote="github" revision="lp5.1" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="platform/external/chromium_org" />
@@ -282,7 +287,6 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
@@ -405,7 +409,6 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="lp5.1" />
-  <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="lp5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -428,7 +431,6 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="SlimRoms/packages_apps_PackageInstaller" remote="github" revision="lp5.1" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="lp5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -456,7 +458,6 @@
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
