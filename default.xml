@@ -21,34 +21,34 @@
   
   <!-- SOKP  Repo Starts -->
   <project path="art" name="art" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="sokp" revision="sokp-l5.1" />
   <project path="bionic" name="bionic" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="sokp" revision="sokp-l5.1" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="sokp" revision="sokp-l5.1" />
+  <project path="external/checkpolicy" name="external_checkpolicy" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="external/sqlite" name="external_sqlite" remote="sokp" revision="sokp-l5.1AG" />
   <project path="frameworks/av" name="frameworks_av" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="frameworks/native" name="frameworks_native" remote="sokp" revision="sokp-l5.1AG" />
   <project path="frameworks/base" name="frameworks_base" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="frameworks/native" name="frameworks_native" remote="sokp" revision="sokp-l5.1AG" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sokp" revision="sokp-l5.1AG" /> 
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="libcore" name="platform_libcore" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="sokp" revision="sokp-l5.1" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sokp" revision="sokp-l5.1AG" />  
   <project path="packages/apps/SonicPapers" name="packages_apps_SonicPapers" remote="sokp" revision="sokp-l5.1" />
-  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sokp" revision="sokp-l5.1" />
+  <project path="platform_manifest" name="platform_manifest" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="platform_manifest" name="platform_manifest" remote="sokp" revision="sokp-l5.1AG" />
   <project path="system/core" name="system_core" remote="sokp" revision="sokp-l5.1AG" />
   <project path="system/media" name="system_media" remote="sokp" revision="sokp-l5.1AG" />
   <project path="vendor/sokp" name="vendor_sokp" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote=remote="sokp" revision="sokp-l5.1" />
-  <project path="external/checkpolicy" name="android_external_checkpolicy" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="external/sqlite" name="external_sqlite" remote="sokp" revision="sokp-l5.1AG"" />
-  <project path="libcore" name="platform_libcore" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sokp" revision="sokp-l5.1AG" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="sokp" revision="sokp-l5.1" />
   <!-- SOKP Repo Ends -->
   
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
