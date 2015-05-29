@@ -30,6 +30,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="sokp" revision="sokp-l5.1AG" />
   <project path="frameworks/native" name="frameworks_native" remote="sokp" revision="sokp-l5.1AG" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="sokp" revision="sokp-l5.1" />
   <project path="libcore" name="platform_libcore" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sokp" revision="sokp-l5.1AG" />
