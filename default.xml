@@ -45,6 +45,7 @@
   <project path="packages/apps/SonicPapers" name="packages_apps_SonicPapers" remote="sokp" revision="sokp-l5.1" />
   <project path="platform_manifest" name="platform_manifest" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/services/Mms" name="packages_services_Mms" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="sokp" revision="sokp-l5.1AG" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="sokp" revision="sokp-l5.1AG" />
   <project path="system/core" name="system_core" remote="sokp" revision="sokp-l5.1AG" />
