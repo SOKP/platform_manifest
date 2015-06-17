@@ -40,7 +40,7 @@
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="sokp" revision="sokp-l5.1" />
-  <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="sokp" revision="sokp-l5.1AG" />
+  <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sokp" revision="sokp-l5.1" />  
   <project path="packages/apps/SonicPapers" name="packages_apps_SonicPapers" remote="sokp" revision="sokp-l5.1" />
