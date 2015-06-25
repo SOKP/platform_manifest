@@ -53,6 +53,7 @@
   <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sokp" revision="sokp-l5.1" />  
+  <project path="packages/apps/SonicLauncher" name="packages_apps_SonicLauncher" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/SonicPapers" name="packages_apps_SonicPapers" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="sokp" revision="sokp-l5.1" />
