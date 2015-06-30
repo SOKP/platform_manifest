@@ -25,7 +25,9 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="sokp" revision="sokp-l5.1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="sokp" revision="sokp-l5.1" />
   <project path="external/checkpolicy" name="external_checkpolicy" remote="sokp" revision="sokp-l5.1" />
+  <project path="external/flac" name="external_flac" remote="sokp" revision="sokp-l5.1" />
   <project path="external/sqlite" name="external_sqlite" remote="sokp" revision="sokp-l5.1" />
+  <project path="external/iptables" name="external_iptables" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/av" name="frameworks_av" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/base" name="frameworks_base" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/native" name="frameworks_native" remote="sokp" revision="sokp-l5.1" />
@@ -489,8 +491,6 @@
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" remote="github" revision="cm-12.1" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-12.1" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="cm-12.1" />
-  <project path="external/iptables" name="CyanogenMod/android_external_iptables" remote="github" revision="cm-12.1" />
-  <project path="external/flac" name="CyanogenMod/android_external_flac" remote="github" revision="cm-12.1" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-12.1" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-12.1" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="github" revision="cm-12.1" /> 
