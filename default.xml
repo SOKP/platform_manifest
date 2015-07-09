@@ -29,6 +29,7 @@
   <project path="external/sqlite" name="external_sqlite" remote="sokp" revision="sokp-l5.1" />
   <project path="external/iptables" name="external_iptables" remote="sokp" revision="sokp-l5.1" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="sokp" revision="sokp-l5.1" />
+  <project path="external/chromium_org" name="external_chromium_org" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/av" name="frameworks_av" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/base" name="frameworks_base" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/native" name="frameworks_native" remote="sokp" revision="sokp-l5.1" />
@@ -484,7 +485,6 @@
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-12.1" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.1" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="cm-12.1" />
-  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/v8" name="CyanogenMod/android_external_chromium_org_v8" remote="github" revision="cm-12.1" />
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" remote="github" revision="cm-12.1" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
