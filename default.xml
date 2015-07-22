@@ -568,4 +568,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="AudioGod/arm-eabi-4.9SM.git" remote="gitlab" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="AudioGod/aarch64-linux-android-4.9SM.git" remote="gitlab" revision="master" />
   
+  <!-- Anti-piracy support -->
+  <project path="packages/services/AntiPiracy" name="AlmightyMegadeth00/AntiPiracySupport" remote="github" revision="master" />
+  
 </manifest>
