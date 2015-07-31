@@ -56,14 +56,14 @@ Building the System
 Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
 
     . build/envsetup.sh
-    brunch n7100 ( Replace n7100 with your device name if you are building for other devices )
+    brunch shamu ( Replace shamu with your device name if you are building for other devices )
 
 You can also build (and see how long it took) for specific devices like this:
 
 Build the Code:
 
     . build/envsetup.sh
-    time brunch n7100 ( Replace n7100 with your device name if you are building for other devices )
+    time brunch shamu ( Replace shamu with your device name if you are building for other devices )
 
 
 Submitting Patches
@@ -82,7 +82,8 @@ If you want to publish your unofficial builds in SOKP download site please conta
 
 Official Contact Details 
 ------------------------
-Hangouts:adi.nth@outlook.com 
+Hangouts:audiogod@live.com
+Contact Email : audiogod@sonic-developers.com & infor@sonic-developers.com
 Official Forum : http://forum.sonic-developers.com 
 SOKP Rom Source Link: https://github.com/SOKP 
 Kernel Device Vendor Source : https://github.com/SOKP-Devices 
