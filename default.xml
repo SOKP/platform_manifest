@@ -41,6 +41,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="sokp" revision="sokp-l5.1" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="sokp" revision="sokp-l5.1" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="sokp" revision="sokp-l5.1" />
   <project path="hardware/ril" name="hardware_ril" remote="sokp" revision="sokp-l5.1" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="sokp" revision="sokp-l5.1-caf" />
@@ -191,7 +192,6 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
@@ -268,7 +268,6 @@
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />
@@ -335,7 +334,6 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="SlimRoms/hardware_broadcom_libbt" remote="github" revision="lp5.1" />
@@ -490,6 +488,7 @@
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" remote="github" revision="cm-12.1" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-12.1" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-12.1" />
+  <project path="external/icu" name="CyanogenMod/android_external_icu" remote="github" revision="cm-12.1" />
   <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" remote="github" revision="cm-12.1" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-12.1" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="cm-12.1" />
@@ -510,6 +509,7 @@
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" remote="github" revision="cm-12.1" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="github" revision="cm-12.1" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" remote="github" revision="cm-12.1" />
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" revision="cm-12.1" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-12.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="github" revision="cm-12.1" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-12.1" />
