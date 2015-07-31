@@ -27,6 +27,7 @@
   <project path="bionic" name="bionic" remote="sokp" revision="sokp-l5.1" />
   <project path="bootable/recovery" name="bootable_recovery" remote="sokp" revision="sokp-l5.1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="sokp" revision="sokp-l5.1" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="sokp" revision="sokp-l5.1" />
   <project path="external/checkpolicy" name="external_checkpolicy" remote="sokp" revision="sokp-l5.1" />
   <project path="external/flac" name="external_flac" remote="sokp" revision="sokp-l5.1" />
   <project path="external/sqlite" name="external_sqlite" remote="sokp" revision="sokp-l5.1" />
@@ -475,7 +476,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
   <!-- CyanogenMod Repo Starts-->
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" remote="github" revision="cm-12.1" />
