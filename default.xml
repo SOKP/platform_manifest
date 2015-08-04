@@ -31,6 +31,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="sokp" revision="sokp-l5.1" />
+  <project path="frameworks/webview" name="frameworks_webview" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sokp" revision="sokp-l5.1" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="sokp" revision="sokp-l5.1" />
   <project path="hardware/ril" name="hardware_ril" remote="sokp" revision="sokp-l5.1" />
@@ -467,7 +468,6 @@
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/chips" name="CyanogenMod/android_frameworks_opt_chips" remote="github" revision="cm-12.1" />
-  <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" remote="github" revision="cm-12.1" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-12.1" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" remote="github" revision="cm-12.1" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-12.1" />
