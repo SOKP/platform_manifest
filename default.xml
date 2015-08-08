@@ -56,6 +56,7 @@
   <project path="packages/apps/SonicLauncher" name="packages_apps_SonicLauncher" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/SonicPapers" name="packages_apps_SonicPapers" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="sokp" revision="sokp-l5.1" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="sokp" revision="sokp-l5.1" />
   <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="sokp" revision="sokp-l5.1" />
   <project path="platform_manifest" name="platform_manifest" remote="sokp" revision="sokp-l5.1" />
@@ -542,7 +543,6 @@
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-12.1" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" remote="github" revision="cm-12.1" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="github" revision="cm-12.1" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="github" revision="cm-12.1" />
