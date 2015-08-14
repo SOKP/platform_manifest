@@ -58,7 +58,6 @@
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="sokp" revision="sokp-l5.1" />
-  <project name="packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="sokp" revision="sokp-l5.1" />
   <project path="platform_manifest" name="platform_manifest" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/services/Mms" name="packages_services_Mms" remote="sokp" revision="sokp-l5.1" />
