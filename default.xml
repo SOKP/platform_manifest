@@ -34,7 +34,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/native" name="frameworks_native" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="sokp" revision="sokp-l5.1" />
-  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="sokp" revision="cm-12.1" />
+  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/webview" name="frameworks_webview" remote="sokp" revision="sokp-l5.1" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="sokp" revision="sokp-l5.1" />
