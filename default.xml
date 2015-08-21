@@ -27,6 +27,7 @@
   <project path="bionic" name="bionic" remote="sokp" revision="sokp-l5.1" />
   <project path="bootable/recovery" name="bootable_recovery" remote="sokp" revision="sokp-l5.1" />
   <project path="device/qcom/common" name="device_qcom_common" remote="sokp" revision="sokp-l5.1" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="sokp" revision="sokp-l5.1" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="sokp" revision="sokp-l5.1" />
   <project path="external/checkpolicy" name="external_checkpolicy" remote="sokp" revision="sokp-l5.1" />
   <project path="external/sqlite" name="external_sqlite" remote="sokp" revision="sokp-l5.1" />  
@@ -45,6 +46,8 @@
   <project path="libcore" name="platform_libcore" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="sokp" revision="sokp-l5.1" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="sokp" revision="sokp-l5.1" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="sokp" revision="sokp-l5.1" />
@@ -55,6 +58,7 @@
   <project path="packages/apps/FloatingActionButton" name="floating-action-button" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="sokp" revision="sokp-l5.1" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Mms" name="packages_apps_Mms-caf" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="sokp" revision="sokp-l5.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="sokp" revision="sokp-l5.1" />  
@@ -380,7 +384,6 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" remote="github" revision="lp5.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/DownloadProvider" name="SlimRoms/packages_providers_DownloadProvider" remote="github" revision="lp5.1" />
@@ -465,7 +468,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
   <!-- CyanogenMod Repo Starts-->
-  <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/datetimepicker" name="CyanogenMod/android_frameworks_opt_datetimepicker" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/net/ims" name="CyanogenMod/android_frameworks_opt_net_ims" remote="github" revision="cm-12.1" />
@@ -538,8 +540,6 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="cm-12.1" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-12.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="github" revision="cm-12.1" />
