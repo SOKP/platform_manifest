@@ -1,0 +1,83 @@
+PROANDROID FIRMWARES 
+====================
+
+PROANDROID platform manifest
+
+
+Getting Started
+---------------
+To get started with the PROANDROID sources, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
+
+
+Create the Directories
+----------------------
+
+You will need to set up some directories in your build environment.
+
+To create them run:
+
+    mkdir -p ~/bin
+    mkdir -p ~/PROANDROID
+
+
+Install the Repository
+----------------------
+
+Enter the following to download the "repo" binary and make it executable:
+
+curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo && chmod a+x ~/bin/repo
+
+You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+
+    cd ~/PROANDROID
+
+
+Repositories:
+---------------
+
+Before you continue --> run this in the terminal
+----------------------------------------
+    repo init -u git://github.com/ProAndroid-Firmwares/platform_manifest.git -b pro-android-8.0.0 
+    
+    && 
+    
+    repo sync -c -f -j16 --force-sync --no-clone-bundle --no-tags
+
+*PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j4 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high. 
+if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is recommended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
+
+
+Building the System
+-------------------
+
+Initialize the environment with the envsetup.sh script. Note that replacing "source" with a single dot saves a few characters, and the short form is more commonly used in documentation.
+
+Build the Code:
+
+    . build/envsetup.sh
+    lunch proandroid_$(Device)-user or lunch proandroid_$(Device)-userdebug
+    make -j8 otapackage or brunch $(Device) ( Replace $(Device) with your device name if you are building for other devices )
+
+
+Submitting Patches
+------------------
+You can send all your patches & fixes to http://codereview.proandroid-firmwares.com
+
+Git TrickMarks
+------------------
+Creating a git branch with no ancestry git checkout --orphan git rm --cached $(git ls-files) git add NOTICE git commit -m "dummy commit" Then u push the goodies ;)
+
+
+Porting PROANDROID For New Devices
+----------------------------
+PROANDROID is open source , So Developers are welcome to port PROANDROID for new Devices. If you want to make your Unofficial Build to be official then contact us in below mentioned contact details with Device tree , kernel soure code along with vendors.
+If you want to publish your unofficial builds in PROANDROID download site please contact us in below mentioned contact details.
+
+Official Contact Details 
+------------------------
+Hangouts:adarsha0069@gamil.com
+Contact Email : adarsha0069@gmail.com
+Official Forum :http://forum.proandroid-firmwares.com
+PROANDROID Rom Source Link: https://github.com/ProAndroid-Firmwares
