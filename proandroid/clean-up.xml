@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+    <!-- Clean-up AOSP projects Starts-->
+    <remove-project name="platform/build" />
+    <remove-project name="platform/build/kati" />
+    <remove-project name="platform/build/soong" />
+    <remove-project name="device/asus/fugu" />
+    <remove-project name="device/asus/fugu-kernel" />
+    <remove-project name="device/google/dragon" />
+    <remove-project name="device/google/dragon-kernel" />
+    <remove-project name="device/google/accessory/arduino" />
+    <remove-project name="device/google/accessory/demokit" />
+    <remove-project name="device/google/marlin" />
+    <remove-project name="device/google/marlin-kernel" />
+    <remove-project name="device/google/vrservices" />
+    <remove-project name="device/huawei/angler" />
+    <remove-project name="device/huawei/angler-kernel" />
+    <remove-project name="device/lge/bullhead" />
+    <remove-project name="device/lge/bullhead-kernel" />
+    <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+    <remove-project name="device/linaro/bootloader/edk2" />
+    <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+    <remove-project name="device/linaro/hikey" />
+    <remove-project name="device/linaro/hikey-kernel" />
+    <remove-project name="platform/hardware/intel/audio_media" />
+    <remove-project name="platform/hardware/intel/bootstub" />
+    <remove-project name="platform/hardware/intel/common/bd_prov" />
+    <remove-project name="platform/hardware/intel/common/libmix" />
+    <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+    <remove-project name="platform/hardware/intel/common/libva" />
+    <remove-project name="platform/hardware/intel/common/libwsbm" />
+    <remove-project name="platform/hardware/intel/common/omx-components" />
+    <remove-project name="platform/hardware/intel/common/utils" />
+    <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+    <remove-project name="platform/hardware/intel/img/hwcomposer" />
+    <remove-project name="platform/hardware/intel/img/psb_headers" />
+    <remove-project name="platform/hardware/intel/img/psb_video" />
+    <remove-project name="platform/hardware/intel/sensors" />
+    <remove-project name="platform/hardware/interfaces" />
+    <remove-project name="platform/hardware/libhardware" />
+    <remove-project name="platform/hardware/libhardware_legacy" />
+    <remove-project name="platform/hardware/qcom/audio" />
+    <remove-project name="platform/hardware/qcom/bt" />
+    <remove-project name="platform/hardware/qcom/display" />
+    <remove-project name="platform/hardware/qcom/gps" />
+    <remove-project name="platform/hardware/qcom/keymaster" />
+    <remove-project name="platform/hardware/qcom/media" />
+    <remove-project name="platform/hardware/qcom/wlan" />
+    <remove-project name="platform/hardware/ril" />
+    <remove-project name="platform/hardware/qcom/msm8960" />
+    <remove-project name="platform/hardware/qcom/msm8994" />
+    <remove-project name="platform/hardware/qcom/msm8996" />
+    <remove-project name="platform/hardware/qcom/msm8x26" />
+    <remove-project name="platform/hardware/qcom/msm8x27" />
+    <remove-project name="platform/hardware/qcom/msm8x84" />
+    <remove-project name="platform/hardware/qcom/msm8x09" />
+    <remove-project name="platform/packages/apps/Launcher2" />
+    <remove-project name="platform/packages/apps/Music" />
+    <remove-project name="platform/packages/apps/QuickSearchBox" />
+    <remove-project name="platform/packages/inputmethods/OpenWnn" />
+    <remove-project name="platform/packages/screensavers/Basic" />
+    <remove-project name="platform/system/bt" />
+    <remove-project name="platform/system/core" />
+    <remove-project name="platform/system/media" />
+    <remove-project name="platform/system/nfc" />
+    <!-- Clean-up AOSP projects Ends-->
+    
+</manifest>
