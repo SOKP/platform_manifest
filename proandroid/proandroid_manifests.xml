@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+      <remote name="proandroid"
+         fetch="https://github.com/ProAndroid-Firmwares"
+         sync-c="true"
+         revision="pro-android-8.0.0"
+         sync-j="16" />
+   
+    <remote name="github"
+         fetch="https://github.com"
+         sync-c="true"
+         sync-j="10" />
+    
+    <remote name="gitlab" 
+         fetch="https://gitlab.com"
+         sync-c="true"
+         sync-j="10" />
+  
+  <!-- SOKP Manifest Starts-->
+  <project path="build/make" name="platform_build" groups="pdk" remote="proandroid" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="proandroid"/>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="proandroid" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/qcom/common" name="device_qcom_common" remote="proandroid"/>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="proandroid"/>
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="proandroid"/>
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="proandroid"/>
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="proandroid"/>
+  <project path="external/brctl" name="external_brctl" remote="proandroid"/>
+  <project path="external/json-c" name="external_json-c" remote="proandroid"/>
+  <project path="external/libnfnetlink" name="external_libnfnetlink" groups="pdk" remote="proandroid" />
+  <project path="external/powertop" name="external_powertop" remote="proandroid"/>
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="proandroid" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="proandroid" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk" remote="proandroid" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="proandroid" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="proandroid"/>
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="proandroid"/>
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="proandroid"/>
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="proandroid"/>
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom,pdk" remote="proandroid"/>
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom,pdk" revision="pro-android-8.0.0-caf" remote="proandroid" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="proandroid"/>
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="proandroid"/>
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="proandroid"/>
+  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk" remote="proandroid"/>
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="proandroid"/>
+  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="pro-android-8.0.0-caf" remote="proandroid"/>
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="proandroid"/>
+  <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" revision="pro-android-8.0.0-caf" remote="proandroid"/>
+  <project path="packages/apps/Eleven" name="packages_apps_Eleven" groups="pdk-fs" remote="proandroid"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="proandroid"/>
+  <project path="system/bt" name="system_bt" groups="pdk" remote="proandroid"/>
+  <project path="system/core" name="system_core" groups="pdk" remote="proandroid"/>
+  <project path="system/media" name="system_media" groups="pdk" remote="proandroid"/>
+  <project path="system/nfc" name="system_nfc" groups="pdk" remote="proandroid"/>
+  <project path="system/qcom" name="system_qcom" groups="qcom" remote="proandroid"/>
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="proandroid"/>
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="proandroid"/>
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="proandroid" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+  </project>
+  <project path="vendor/proandroid" name="vendor_proandroid" groups="pdk" remote="proandroid" />
+  <!-- SOKP Manifest Ends-->
+  
+</manifest>

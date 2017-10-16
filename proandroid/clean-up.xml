@@ -23,6 +23,11 @@
     <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
     <remove-project name="device/linaro/hikey" />
     <remove-project name="device/linaro/hikey-kernel" />
+    <remove-project name="platform/external/libnfnetlink" />
+    <remove-project name="platform/external/tinycompress"/>
+    <remove-project name="platform/frameworks/av" />
+    <remove-project name="platform/frameworks/base" />
+    <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/hardware/intel/audio_media" />
     <remove-project name="platform/hardware/intel/bootstub" />
     <remove-project name="platform/hardware/intel/common/bd_prov" />
@@ -58,6 +63,7 @@
     <remove-project name="platform/packages/apps/Launcher2" />
     <remove-project name="platform/packages/apps/Music" />
     <remove-project name="platform/packages/apps/QuickSearchBox" />
+    <remove-project name="platform/packages/apps/Settings" />
     <remove-project name="platform/packages/inputmethods/OpenWnn" />
     <remove-project name="platform/packages/screensavers/Basic" />
     <remove-project name="platform/system/bt" />
